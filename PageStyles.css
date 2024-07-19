@@ -1,0 +1,202 @@
+    
+    body{
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    h1{
+        color: yellow;
+        text-shadow: 2.1px 1.8px 2px black;
+        text-decoration: underline;
+        text-align: center;
+        text-transform: uppercase;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }   
+
+    .goback{
+        text-align: center;
+        color: white;
+        text-shadow: 2px 1px 2px black;
+        font-size: 20px;
+        background-color: 1px solid black;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        letter-spacing: 5px;
+        margin-left: 47%;
+    }
+
+    .goback:hover{
+        color: yellow;
+    }
+
+    img{
+        box-shadow: 1px 1px 3px black;
+    }
+
+    img:hover{
+        border-color: yellow;
+        border-style: double;
+    }
+
+    @media (max-width:1000px){
+        
+        img {
+            display: block;
+            margin: 0 auto; 
+            margin-top: 8px;
+            height: 150px;
+            width: 250px;
+        }
+
+        .dropbtn {
+            position: relative;
+            font-size: 8px;
+            padding: 10px 10px;
+        }
+    
+        .dropdown-content {
+            padding: 10px 10px;
+            position: absolute;
+        }
+    
+        .dropdown-content a {
+            text-transform: uppercase;
+            text-align: center;
+            margin-top: 3px;
+            padding: 5px 5px;
+            font-size: 9pt;
+            position: relative;
+        }
+    
+        .dropbtn:hover {
+            cursor: pointer;
+            background-color: #ffe600;
+            border-radius: 10px;
+            color: black;
+            text-shadow: 1px 1px 1px white;
+            height: 10px;
+            box-shadow: 1px 1px 3px black;
+        }
+        
+        .dropdown:hover .dropdown-content {
+            display: block;
+            background-color: yellow;
+            box-shadow: 2px 2px 3px black;
+        }
+        .dropdown-content a {
+            top: -1px;
+            padding: 0px 0px;
+            color: black;
+            border-radius: 10px;
+        }
+    
+        ul {
+            position: relative;
+        }
+    
+        li {
+            font-weight: bold;
+            height: 20px;
+            position: relative;
+        }
+
+        h1{
+            font-size: 18px;
+        }
+
+        .goback{
+            margin-left: 40%;
+            font-size: 12px;
+        }
+    } 
+
+    .dropbtn {
+        color: black;
+        padding: 8px 13px;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        border: none;
+        position: relative;
+        font-size: 12pt;
+        height: 10px;
+    }
+    
+    .dropdown {
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        color: rgb(255, 0, 0);
+        position: relative;
+        display: inline-block;
+        font-size: 10px;
+    }
+    
+    
+    .dropdown-content {
+        display: none;
+        top: 40px;
+        position: absolute;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-weight: bold;
+        text-transform: uppercase;
+        background-color: #ffe600;
+        width: 180px;
+        font-size: 12px;
+        border-radius: 10px;
+        box-shadow: 3px 3px 6px black;
+    }
+    
+    .dropdown-content a {
+        padding: 12px 16px;  
+        text-decoration: none;
+        display: block;
+    }
+    
+    .dropbtn:hover {
+        cursor: pointer;
+        background-color: #ffe600;
+        border-radius: 10px;
+        color: black;
+        text-shadow: 1px 1px 1px white;
+        height: 10px;
+        box-shadow: 1px 1px 3px black;
+    }
+    
+    .dropdown:hover .dropdown-content {
+        display: block;
+    }
+    
+    ul {
+        display: inline-flex;
+        width: 70%;
+        margin: 0;
+        padding: 0;
+        list-style-type: none;   
+        background-color: rgba(255, 255, 255, 0.497);
+        color: black;
+        box-shadow: 1px 1px 4px black;
+        border: 1px solid black;
+        border-radius: 10px;
+        padding: 0px 20px;
+        height: 40px;
+        align-content: center;  
+        justify-content: center ;
+        font-weight: 600;
+        
+    }
+    
+    li {
+        display: inline-block;  
+        padding: 10px 14px;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+    
+    li a {
+        color: black;
+        padding: 5px 15px;
+        text-decoration: underline;
+    }
+    
+    li a:hover {
+        background-color: #000000;
+        color: yellow;
+        border-radius: 10px;
+        text-shadow: 1px 1px 1px black;
+        box-shadow: 1px 1px 4px white;
+    }

@@ -1,0 +1,312 @@
+body {
+    background-repeat: no-repeat;    
+    background-size: cover;
+    background-position: 15%;
+}
+
+
+h1 {
+    color: white;
+    text-shadow: 1px 1px 4px black;
+    text-transform: uppercase;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+h2 {
+    color: yellow;
+    cursor: default;
+    text-shadow: 2px 2px 2px black;
+    text-decoration: dashed;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    letter-spacing: 3px;
+    font-size: 28px;
+    text-transform: uppercase;
+}
+
+
+.viewall {
+    color: white;
+    text-shadow: 3px 1px 1px black;
+    font-size: 20px;
+    text-align: center;
+    position: absolute;
+    margin-left: 45%;
+    background-color: 1px solid black;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    letter-spacing: 5px;
+}
+
+.viewall:hover {
+    color: yellow;
+}
+
+hr {
+    border: 1px solid white;
+    box-shadow: 1px 1px 1px black;
+}
+
+a {
+    color: black;
+}
+
+img {
+    box-shadow: 1px 1px 3px black;
+}
+
+img:hover {
+    border-color: yellow;
+    border-style: double;
+}
+
+h2:hover {
+    text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+
+    .mainimage{
+        display: flex;
+    }
+
+    img {
+        display: flex;
+        margin: 0 auto; 
+        margin-top: 8px;
+        height: 200px;
+        justify-content: center;
+        align-content: center;
+        width: 330px;
+    }
+
+    .viewall {
+        position: absolute;
+        text-align: center;
+        justify-content: center;
+        font-size: 14px; 
+        margin-left: 35%;
+    }
+
+    .dropbtn {
+        position: relative;
+        font-size: 10px;
+        padding: 10px 10px;
+    }
+
+    .dropdown-content {
+        padding: 10px 10px;
+        position: absolute;
+    }
+
+    .dropdown-content a {
+        text-transform: uppercase;
+        text-align: center;
+        margin-top: 3px;
+        padding: 5px 5px;
+        font-size: 9pt;
+        position: relative;
+    }
+
+    .dropbtn:hover {
+        cursor: pointer;
+        background-color: #ffe600;
+        border-radius: 10px;
+        color: black;
+        text-shadow: 1px 1px 1px white;
+        height: 10px;
+        box-shadow: 1px 1px 3px black;
+    }
+    
+    .dropdown:hover .dropdown-content {
+        display: block;
+        background-color: yellow;
+        box-shadow: 2px 2px 3px black;
+    }
+    .dropdown-content a {
+        top: -1px;
+        padding: 0px 0px;
+        color: black;
+        border-radius: 10px;
+    }
+
+    ul {
+        position: relative;
+    }
+
+    li {
+        display: inline-block;
+        font-weight: bold;
+        height: 20px;
+        position: relative;
+    }
+
+    h1, h2 {
+        font-size: 14pt;
+    }
+
+    .pagenumber{
+        font-size: 9pt;
+        text-align: center;
+    }
+
+    
+}
+
+#about {
+    color: white;
+    text-shadow: 1px 1px 1px blue;
+    font-size: large;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-left: 90%;
+    position: absolute;
+    margin-top: -9%;
+}
+
+#mainheading {
+    text-shadow: 1px 1px 3px black;
+    animation-name: title;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+.dropbtn {
+    color: black;
+    padding: 8px 13px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border: none;
+    position: relative;
+    font-size: 12pt;
+    height: 10px;
+    font-weight: bolder;
+}
+
+.dropdown {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(255, 0, 0);
+    position: relative;
+    display: inline-block;
+    font-size: 12px;
+}
+
+
+.dropdown-content {
+    display: none;
+    top: 40px;
+    position: absolute;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    background-color: #ffe600;
+    width: 180px;
+    font-size: 12px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 6px black;
+}
+
+.dropdown-content a {
+    padding: 12px 16px;  
+    text-decoration: none;
+    display: block;
+}
+
+.dropbtn:hover {
+    cursor: pointer;
+    background-color: #ffe600;
+    border-radius: 10px;
+    color: black;
+    text-shadow: 1px 1px 1px white;
+    height: 10px;
+    box-shadow: 1px 1px 3px black;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.browseul {
+    display: inline-flex;
+    width: 70%;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;   
+    background-color: rgba(255, 255, 255, 0.497);
+    color: black;
+    box-shadow: 1px 1px 4px black;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 0px 20px;
+    height: 40px;
+    align-content: center;  
+    justify-content: center ;
+    
+}
+
+li {
+    display: inline-block;  
+    padding: 10px 14px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 12pt;
+    font-weight: bolder;
+}
+
+li a {
+    color: black;
+    padding: 5px 15px;
+    text-decoration: underline;
+}
+
+li a:hover {
+    background-color: #000000;
+    color: yellow;
+    border-radius: 10px;
+    text-shadow: 1px 1px 1px black;
+    box-shadow: 1px 1px 4px white;
+}
+
+@keyframes title {
+    0% { color: ghostwhite; }
+    25% { color: rgb(255, 198, 93); }
+    50% { color: yellow; }
+    75% { color: aquamarine; }
+    100% { color: whitesmoke; }
+}
+
+.game-heading{
+    color: yellow;
+    text-decoration: none;
+}
+
+.mainimage{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+
+.pagenav{
+    text-align: center;
+}
+
+
+.pagenavul{
+    padding: 0;
+    display: inline-flex;
+    border: 0px solid black;
+    box-shadow: 2px 2px 2px 3px black;
+    border-radius: 5px;
+    text-align: center;
+    background-color:white;
+    justify-content: center;
+    height: 30px;
+    align-items:center;
+    width: 50%;
+}
+
+.pagenumber{
+    color: white;
+    text-shadow: 2px 2px 2px black;
+}
